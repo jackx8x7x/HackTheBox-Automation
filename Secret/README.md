@@ -1,4 +1,12 @@
+# Overview
+---
+- JWT token forge
+- Information leak from git repository
+- Express.js code review
+- Command injection
+
 # Usage
+---
 Run the script `run.sh` to build and run a docker container to get a point of entry of the HTB machine "Secret".
 ```bash
 $ ./run.sh <IP>
@@ -11,3 +19,7 @@ secret.htb> id
 "uid=1000(dasith) gid=1000(dasith) groups=1000(dasith)\n"
 secret.htb>
 ```
+
+# Tags
+---
+#JWT, #git, #Express
